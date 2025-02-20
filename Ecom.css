@@ -1,0 +1,159 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgb(189, 221, 189);
+}
+
+.logo{
+    display: flex;
+    justify-content:space-around;
+}
+.top{
+    font-size: large;
+    font-weight: 300px;
+    color: green;
+}
+.nav-links{
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    font-size: large;
+    padding: 1%;
+    flex-wrap: wrap;
+    border-radius: 30%;
+    li{
+       padding-left: 10px;
+    }
+}
+.sign{
+    height: 35px;
+    width: 80px;
+    background-color: green;
+    color: white;
+   border-color: green;
+    border-radius: 10px;
+}
+.title2{
+    justify-content: center;
+    display: flex;
+    font-weight: bold;
+    font-size: 60px;
+}
+.but{
+    margin-top: 4%;
+   
+}
+.sec2{
+    margin-left: 45px;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    justify-content: space-around;
+    display: flex; 
+    p{
+        font-style: normal;
+       font-size: large;
+    }
+}
+.product1{
+    flex-direction: row;
+    justify-content:space-around;
+    display: flex;
+    list-style: none;
+}
+.product2{
+    flex-direction: row;
+    justify-content:space-around;
+    display: flex;
+    list-style: none;
+}
+.price1{
+    color: green;
+    padding-left: 2%;
+}
+.buy{
+    border: none;
+    background-color: white;
+    padding-right: 2%;
+}
+button .buyN{
+    height: 2%;
+    width: 6px;
+    border: 1px;
+    background-color: green;
+}
+.best{
+    
+  justify-content:space-around;
+  display: flex;
+  list-style: none;
+    .buyN{
+        height: 35px;
+        width: 80px;
+        border-color: green;
+      background-color: white;
+    }
+  }
+ 
+   .hs3{
+        font-size: xx-large;
+        font-weight: bold;
+        justify-content: center;
+        display: flex;
+    }
+    .ps3{
+        font-size: large;
+        justify-content: center;
+    }
+  
+  p{
+    
+    display: flex;
+    flex-direction: row;
+  }
+
+.foot{
+   display: flex;
+   justify-content: space-around;
+}
+.pfoot{
+    p{
+        font-size: 60px;
+        font-weight: bold;
+    }
+}
+.footer{
+    background-color: black;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    
+    img{
+        padding-top: 15%;
+        padding-bottom: 20%;
+    }
+    .hfoot{
+    margin-left: 3%;
+    }
+}
+.secfoot{
+background-color: black;
+color: white;
+}
+.footlinks{
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    padding-top: 35px;
+}
+.Soso{
+    display: flex;
+    justify-content:space-around;
+  
+}
